@@ -1,0 +1,42 @@
+.banner{
+    background-image: 
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.308), rgba(58, 56, 65, 0.774)), url('https://i.ytimg.com/vi/_01duby-Am0/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-header{
+    font-size: 50px;
+}
+
+.banner-container p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-main{
+    padding: 10px 16px;
+    border-radius: 10px;
+    background-color:#f5f5f5;
+    color: #79c3c5;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transition: 200ms
+}
+
+.btn-main:hover{
+    background-color: #ACE0E2;
+    color: #f5f5f5;
+}
